@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+.login-grid {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-style: none !important;
+  border-left-color: red;
+}
+.fw-bold img{
+	width: 100px;
+	height: 100px;
+}
+.login-label {
+  font-size: 16px;
+  color: #333;
+}
+.ui-fileupload-content {
+    border: 0 none;
+    background: blue;
+    
+}
+.ui-fileupload-buttonbar.ui-widget-header {
+    background-color: transparent;
+    border: 0 none;
+}
+.login-input {
+  font-size: 16px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+}
+.col-md-6.col-lg-5.d-none.d-md-block img{
+	height: 95%;
+	width: 100%;
+}
+.login-button {
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-outline.mb-4 input{
+	border-width:1px;
+	border-style: solid;
+	border-color: gray;
+}
+.login-button:hover {
+  background-color: #3e8e41;
+}
+ .ui-inputfield {
+	text-align: right !important;
+	direction: rtl;
+}

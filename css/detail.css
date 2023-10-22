@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.search{
+  
+  top:6px;
+  left:10px;
+}
+
+.form-control{
+    
+    border:none;
+    padding-left:32px;
+}
+
+.form-control:focus{
+    
+    border:none;
+    box-shadow:none;
+}
+
+.green{
+    
+    color:rgb(15, 16, 15);
+}
+/* Dans votre fichier CSS */
+tr.no-results {
+    background-color: green;
+    color: white; /* Pour changer la couleur du texte en blanc, vous pouvez personnaliser cette couleur selon vos préférences. */
+}
+.no-results {
+    background-color: green;
+    color: white; /* Pour changer la couleur du texte en blanc, vous pouvez personnaliser cette couleur selon vos préférences. */
+}
+.custom-row {
+    background-color: #2e11a1; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+}
+/* Style pour le tableau */
+.table {
+    border-collapse: collapse; /* Fusionner les bordures des cellules */
+    width: 100%;
+}
+
+/* Style pour les lignes impaires du tableau */
+.table tbody tr:nth-child(odd) {
+    background-color: #7bcb35; /* Couleur de fond pour les lignes impaires */
+}
+
+/* Style pour les lignes paires du tableau */
+.table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Couleur de fond pour les lignes paires */
+}
+
+/* Style pour les en-têtes de colonnes */
+.table thead tr {
+    background-color: #333; /* Couleur de fond pour les en-têtes */
+    color: #45be15; /* Couleur du texte pour les en-têtes */
+}
+
+/* Style pour les cases à cocher dans la première colonne */
+.table tbody tr td:first-child input[type="checkbox"] {
+    margin-right: 5px; /* Marge à droite pour espacement */
+}
+
+.no-results {
+    display: none;
+    color: rgb(251, 246, 246); /* Couleur du message "Aucun résultat trouvé" */
+}
+
+.no-results-table {
+    background-color: rgb(194, 40, 43); /* Couleur de fond du tableau lorsque "Aucun résultat trouvé" est affiché */
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.search{
+  
+  top:6px;
+  left:10px;
+}
+
+.form-control{
+    
+    border:none;
+    padding-left:32px;
+}
+
+.form-control:focus{
+    
+    border:none;
+    box-shadow:none;
+}
+
+.green{
+    
+    color:green;
+}
+/* Dans votre fichier CSS */
+tr.no-results {
+    background-color: green;
+    color: white; /* Pour changer la couleur du texte en blanc, vous pouvez personnaliser cette couleur selon vos préférences. */
+}
+.no-results {
+    background-color: green;
+    color: white; /* Pour changer la couleur du texte en blanc, vous pouvez personnaliser cette couleur selon vos préférences. */
+}
